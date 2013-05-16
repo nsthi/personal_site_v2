@@ -1,0 +1,243 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:700);
+
+@font-face
+{
+font-family: Akkurat;
+src: url('fonts/Akkurat.ttf'),
+}
+
+@font-face
+{
+font-family: Akkurat-Light;
+src: url('fonts/Akkurat-Light.ttf'),
+}
+
+/**
+/ Design of Left Panel
+**/
+.bang1{
+	padding: 5px 20px 0;
+	line-height: 1.2em;
+	display: inline-block;
+	clear: both;
+	float: left;
+	margin: 10px 0 0;
+	font-size: 4em;
+	background: #FF0200;
+	color: #fff;
+}
+
+.bang2{
+	padding: 5px 20px 0;
+	line-height: 1.2em;
+	display: inline-block;
+	clear: both;
+	float: left;
+	margin: 10px 0 0;
+	font-size: 4em;
+	background: #3FA7ED;
+	color: #fff;
+}
+
+.bang3{
+	padding: 5px 20px 0;
+	line-height: 1.2em;
+	display: inline-block;
+	clear: both;
+	float: left;
+	margin: 10px 0 0;
+	font-size: 4em;
+	background: #03588C;
+	color: #fff;
+}
+
+p.bang1, p.bang2, p.bang3{
+	font-family: 'Lato', sans-serif;
+	font-size: 55px;
+}
+.bang1 a, .bang2 a, .bang3 a{
+	color: #fff;
+}
+
+.bang1:hover, .bang1 a:hover, .bang1:hover a{
+	background: #fff;
+	color: #FF0200;
+	text-decoration: none;
+	.bang1 a:hover{
+		color: #FF0200;
+	}
+} 
+.bang2:hover, .bang2 a:hover, .bang2 i:hover, .bang2:hover a{
+	background: #fff;
+	color: #3FA7ED;
+	text-decoration: none;
+} 
+.bang3:hover, .bang3 a:hover, .bang3 i:hover, .bang3:hover a{
+	background: #fff;
+	color: #03588C;
+	text-decoration: none;
+}
+
+/**
+/ Body Text
+**/
+
+p, label, body {
+	font-family: 'Akkurat';
+	font-size: 14px;
+}
+
+h1{
+	font-family: 'Exo', sans-serif;
+}
+
+h2,h3	{
+	font-family: 'Akkurat';
+	
+}
+	
+h1{
+	font-weight: bold;
+}
+
+h2{
+	font-size: 1.7em;
+}
+
+h3{
+	font-size: 15px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+}
+
+label{
+	font-size: 30px;
+}
+
+label a{
+	text-decoration: none;
+}
+
+label a:hover{
+	color: red;
+	text-decoration: none;
+}
+
+p {
+	margin-bottom: 0px;
+	font-family: 'Akkurat-Light';
+}
+
+/**
+/ Images
+**/
+
+img{
+	border-style:solid;
+	border-width:5px;
+	border-color: #3FA7ED;
+}
+
+.grayscale {
+	  -webkit-transition: all .3s ease;
+	     -moz-transition: all .3s ease;
+	       -o-transition: all .3s ease;
+	      -ms-transition: all .3s ease;
+	          transition: all .3s ease;
+											 filter: gray;
+											opacity: .7;
+		-webkit-filter: grayscale(100%);
+		  -webkit-filter: brightness(-65%);
+		
+						
+}
+
+img.grayscale:hover {
+	  -webkit-transition: all 1s ease;
+	     -moz-transition: all 1s ease;
+	       -o-transition: all 1s ease;
+	      -ms-transition: all 1s ease;
+	          transition: all 1s ease;
+	-webkit-filter: grayscale(0%);
+	  -webkit-filter: brightness(0%);
+	
+	opacity:1;
+	
+}
+
+.portrait{
+	width: 60%;
+}
+
+img.portrait{
+	border-color: #03588C;
+}
+
+/**
+/ Skills List
+**/
+#navcontainer ul
+{
+padding: 0;
+list-style-type: none;
+line-height: 40px;
+}
+
+#navcontainer ul li { display: inline; padding-left: .5em; padding-right: .5em; }
+
+#navcontainer ul li a
+{
+text-decoration: none;
+font-size: 15px;
+font-family: 'Lato';
+padding: .3em .3em;
+color: #fff;
+background-color: #FF0200;
+}
+
+#navcontainer ul li a:hover
+{
+color: #FF0200;
+background-color: #fff;
+}
+
+
+/**
+/ Social Icons
+**/
+i:hover{
+	color: #ee3233;
+}
+
+.social a{
+	color: #575A5C;
+}
+
+.social a:hover{
+	text-decoration: none;
+}
+
+/**
+/ Footer
+**/
+p.footer_font {
+	font-family: 'Akkurat-Light';
+	font-size: 12px;
+}
+
+.footer_font a{
+	font-family: 'Akkurat-Light';
+	color: #6c7476;
+}
+
+.horizontal-line{
+	border-top: 4px solid #66a7c5; margin: 10px 0; 
+	width: auto;
+}
+.horizontal-line:hover{
+	border-top: 4px solid #ee3233; margin: 10px 0; 
+}
+
+#ss-footer{
+	display:none !important;
+}
