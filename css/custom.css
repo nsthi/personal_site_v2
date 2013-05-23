@@ -5,6 +5,17 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,100);
 @import url(http://fonts.googleapis.com/css?family=Oxygen:400,700);
 
+@font-face {
+    font-family: 'Social';
+    src: url('../font/social-icons.eot');
+    src: url('../font/social-icons.eot?#iefix') format('eot'),
+         url('../font/social-icons.woff') format('woff'),
+         url('../font/social-icons.ttf') format('truetype'),
+         url('../font/social-icons.svg#webfontmuk63VQd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 /**
 / Design of Left Panel
 **/
@@ -116,6 +127,7 @@ p {
 	font-family: 'Raleway', sans-serif;
 }
 
+
 /**
 / Images
 **/
@@ -193,8 +205,13 @@ img.portrait{
 /**
 / Social Icons
 **/
-i:hover{
-	color: #ee3233;
+
+.social li {
+	float: left;
+	padding: .5em .5em .5em .5em;
+	color: #575A5C;
+	font-family: 'Social';
+	font-size: 50px;
 }
 
 .social a{
@@ -203,7 +220,10 @@ i:hover{
 
 .social a:hover{
 	text-decoration: none;
+	color: #FF0200;
+	
 }
+
 
 /**
 / Footer
