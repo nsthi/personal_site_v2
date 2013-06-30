@@ -1,3 +1,4 @@
+<?php if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandler"); else ob_start(); ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -32,7 +33,7 @@
         
    <!--[if IE 7]> 
   <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
-   <![endif]-->
+   <![endif]-->    
   </head>
     <body>
         <!--[if lt IE 7]>
@@ -50,9 +51,9 @@
               <h1>Neil Sethi</h1>
               <br><br>
               <ul id="nav-list">
-                <li><a href="contact.html"><h2>contact</h2></a></li>
-                <li><a href="projects.html"><h2>projects</h2></a></li> 
-                <li class="first"><a href="index.html"><h2>home</h2></a></li>
+                <li><a href="contact.php"><h2>contact</h2></a></li>
+                <li><a href="projects.php"><h2>projects</h2></a></li> 
+                <li class="first"><a href="index.php"><h2>home</h2></a></li>
               </ul>
             </div>
           </div>
