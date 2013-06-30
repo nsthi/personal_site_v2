@@ -12,9 +12,11 @@
         <link rel="icon" type="image/x-icon" href="img/favicon.png" />
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
+
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/custom.css">
+        <link rel="stylesheet" href="css/liquid-slider.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/font-awesome-social.css">
         
@@ -27,12 +29,38 @@
         <!-- Optional code for enabling touch -->
         <script src="js/jquery.touchSwipe.min.js"></script>
         <!-- This is Liquid Slider code. The full version (not .min) is also included in the js directory -->
+        <script src="js/jquery.liquid-slider.min.js"></script>
         <script src="js/jquery.fancybox.js"></script>
         <script src="js/jquery.fancybox.pack.js"></script>
         
    <!--[if IE 7]> 
   <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
    <![endif]-->
+        <script>
+        $(document).ready(function() {
+                  $("#various1").fancybox({
+                      'titlePosition'     : 'inside',
+                      'transitionIn'      : 'none',
+                      'transitionOut'     : 'none'
+                  });
+                  $("#various2").fancybox({
+                      'titlePosition'     : 'inside',
+                      'transitionIn'      : 'none',
+                      'transitionOut'     : 'none'
+                  });
+                  $("#various3").fancybox({
+                      'titlePosition'     : 'inside',
+                      'transitionIn'      : 'none',
+                      'transitionOut'     : 'none'
+                  });
+                  $("#various4").fancybox({
+                      'titlePosition'     : 'inside',
+                      'transitionIn'      : 'none',
+                      'transitionOut'     : 'none'
+                  });
+                  
+              });
+        </script>        
   </head>
     <body>
         <!--[if lt IE 7]>
@@ -159,10 +187,9 @@
       </div><!--END FLUID ROW-->
       
     </div><!--END Half Span & PROJECTS-->
-              
+            <hr>
             </div> <!--END RIGHT HAND PANEL-->
           </div> <!--END ROW-->
-              <hr>
           <center><br><p class="footer_font"> Built on Twitter Bootstrap, Font-Awesome, FancyBox, & jQuery<br>
             Code and design by Neil Sethi &copy; 2013, Credit to <a href="http://williamhockey.com">Will</a> and <a href="http://www.angelaconstance.com">Angela</a> for design inspiration.</p></center>
         </div> <!--END CONTAINER-->

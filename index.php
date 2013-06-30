@@ -31,9 +31,9 @@
         <script src="js/jquery.fancybox.js"></script>
         <script src="js/jquery.fancybox.pack.js"></script>
         
-	 <!--[if IE 7]> 
-	<link rel="stylesheet" href="css/font-awesome-ie7.min.css">
-	 <![endif]-->
+   <!--[if IE 7]> 
+  <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+   <![endif]-->
   </head>
     <body>
         <!--[if lt IE 7]>
@@ -97,7 +97,7 @@
               
             </div> <!--END RIGHT HAND PANEL-->
           </div> <!--END ROW-->
-              <hr>
+            <hr>
           <center><br><p class="footer_font"> Built on Twitter Bootstrap, Font-Awesome, FancyBox, & jQuery<br>
             Code and design by Neil Sethi &copy; 2013, Credit to <a href="http://williamhockey.com">Will</a> and <a href="http://www.angelaconstance.com">Angela</a> for design inspiration.</p></center>
         </div> <!--END CONTAINER-->
