@@ -274,14 +274,49 @@ img.portrait{
 .social a:hover{
 	text-decoration: none;
 	color: #FF0200;
-	
 }
 
+.social a#linkedin:hover{
+	color: #0274b3;
+}
+
+.social a#fb:hover{
+	color: #3b569d;
+}
+
+.social a#twitter:hover{
+	color: #36abe0;
+}
+
+.social a#github:hover{
+	color: #000000;
+}
+
+.social a#soundcloud:hover{
+	color: #ed7320;
+}
+
+.social a#instagram:hover{
+	color: #a77f61;
+}
+
+.social a#foursquare:hover{
+	color: #2090c7;
+}
+
+.social a#spotify:hover{
+	color: #7fb748;
+}
+
+.social a#hypem:hover{
+	color: #83c441;
+}
 
 /**
 / Footer
 **/
 p.footer_font {
+	padding-bottom:2em;
 	font-family: 'Telex', sans-serif;
 	font-size: 12px;
 }
