@@ -314,10 +314,11 @@ img.portrait{
 
 
 #right p.contact{
-padding-top:0em; 
-font-size:20px; 
-float: left;
-font-size: 14px;
+	padding-top:0em;
+	padding-bottom: 2em;
+	font-size:20px; 
+	float: left;
+	font-size: 14px;
 }
 
 

@@ -30,7 +30,82 @@
         <!-- This is Liquid Slider code. The full version (not .min) is also included in the js directory -->
         <script src="js/jquery.fancybox.js"></script>
         <script src="js/jquery.fancybox.pack.js"></script>
-        
+        <script>
+          $(document).ready(function() {
+
+                  $("a#fb").popover({
+                    trigger: 'hover',
+                    placement: 'top',
+                    container: 'body',
+                    html: true,
+                    content: 'Facebook'
+                  });
+
+                  $("a#twitter").popover({
+                    trigger: 'hover',
+                    placement: 'top',
+                    container: 'body',
+                    html: true,
+                    content: 'Twitter'
+                  });
+
+                  $("a#github").popover({
+                    trigger: 'hover',
+                    placement: 'top',
+                    container: 'body',
+                    html: true,
+                    content: 'Github'
+                  });
+
+                  $("a#linkedin").popover({
+                    trigger: 'hover',
+                    placement: 'top',
+                    container: 'body',
+                    html: true,
+                    content: 'LinkedIn'
+                  });
+
+                  $("a#soundcloud").popover({
+                    trigger: 'hover',
+                    placement: 'top',
+                    container: 'body',
+                    html: true,
+                    content: 'Soundcloud'
+                  });
+
+                  $("a#instagram").popover({
+                    trigger: 'hover',
+                    placement: 'top',
+                    container: 'body',
+                    html: true,
+                    content: 'Instagram'
+                  });
+
+                  $("a#hypem").popover({
+                    trigger: 'hover',
+                    placement: 'top',
+                    container: 'body',
+                    html: true,
+                    content: 'Hype Machine'
+                  });
+                  
+                  $("a#foursquare").popover({
+                    trigger: 'hover',
+                    placement: 'top',
+                    container: 'body',
+                    html: true,
+                    content: 'Foursquare'
+                  });
+
+                  $("a#spotify").popover({
+                    trigger: 'hover',
+                    placement: 'top',
+                    container: 'body',
+                    html: true,
+                    content: 'Spotify'
+                  });                  
+              });
+        </script>
    <!--[if IE 7]> 
   <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
    <![endif]-->   
@@ -89,7 +164,7 @@
                           <li><a id="fb" href="http://facebook.com/nsthi108">A</a></li>
                           <li><a id="twitter" href="http://www.twitter.com/nsthi">?</a></li>
                           <li><a id="github" href="http://www.github.com/nsthi">P</a></li>
-                          <li><a id="soundcloud" href="http://www.soundcloud.com/tentativelife">G</a></li>
+                          <li><a id="soundcloud" href="http://www.soundcloud.com/imp0rt">G</a></li>
                           <li><a id="instagram" href="http://instagram.com/nsthi">T</a></li>
                           <li><a id="foursquare" href="https://foursquare.com/user/28889226">L</a></li>
                           <li><a id="hypem" href="http://www.hypem.com/nsthi">-</a></li>
