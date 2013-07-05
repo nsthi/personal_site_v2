@@ -261,7 +261,7 @@ img.portrait{
 
 .social li {
 	float: left;
-	padding: .5em .5em .5em .5em;
+	padding: .7em .5em .5em .5em;
 	color: #575A5C;
 	font-family: 'Social';
 	font-size: 50px;
@@ -311,6 +311,15 @@ img.portrait{
 .social a#hypem:hover{
 	color: #83c441;
 }
+
+
+#right p.contact{
+padding-top:0em; 
+font-size:20px; 
+float: left;
+font-size: 14px;
+}
+
 
 /**
 / Footer
