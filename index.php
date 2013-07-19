@@ -59,41 +59,36 @@
           </div>
           <hr>
 
-          <div class="rel-break"></div>
-          <div class="row">
-            <!-- STATIC LEFT HAND PANEL HERE-->            
-            <div class="span6" id="left">
-              <div class="inside">
-                <p class="bang1"> I'm a senior in </p>
-                <br>
-                <p class="bang1"> Computer Science </p>
-                <br>
-                <span><p class="bang1" > @ <a href="http://www.emory.edu">Emory University</a>, </p> 
-                <p class="bang2"> a product dev</p>
-                <br> 
-                <p class="bang2">@ 
-                  <a href="http://www.ecommhub.com"><i class="icon-shopping-cart"></i> eCommHub</a>, & <br></p>
-                <p class="bang3"> an intern</p> 
-                <br>
-                <p class="bang3">@ <a href="http://www.dropbox.com"><i class="icon-cloud"></i> Dropbox.</a></p>   
-              </div>            
-            </div>
-            
-            <!-- RIGHT HAND PANEL HERE-->
-            <div class="span6" id="right">
-              <div class="row">
-                <div class="span3">
-                  <center><img class="portrait" src="img/portrait.jpg"></img>
-                </div>
-                <div class="span3">
-                  <p>I'm an aspiring software engineer. I have developed a proclivity for Rails, though
-                    I originally coded in Java.
-                    <br><br>
-                    Outside of coding, I love poetry/literature, as well as listening to and making interesting music. 
-                    </p><br>
-                </div>
+           <div class="rel-break"></div>
+            <div class="row">
+              <!-- STATIC LEFT HAND PANEL HERE-->            
+              <div class="span6" id="left">
+                <div class="inside">
+                  <p class="bang1"> I'm a senior in </p>
+                  <br>
+                  <p class="bang1"> Computer Science </p>
+                  <br>
+                  <span><p class="bang1" > @ <a href="http://www.emory.edu">Emory University</a>, </p> 
+                  <p class="bang2"> a product dev</p>
+                  <br> 
+                  <p class="bang2">@ 
+                    <a href="http://www.ecommhub.com"><i class="icon-shopping-cart"></i> eCommHub</a>, & <br></p>
+                  <p class="bang3"> an intern</p> 
+                  <br>
+                  <p class="bang3">@ <a href="http://www.dropbox.com"><i class="icon-cloud"></i> Dropbox.</a></p>   
+                </div>            
               </div>
-                  </center>
+
+              <!-- RIGHT HAND PANEL HERE-->
+              <div class="span6" id="right">
+                <div class="row">
+                    <p>I'm an aspiring software engineer and entrepreneur. I have developed a proclivity for Rails, though
+                      I originally coded in Java.
+                      <br><br>
+                      Outside of coding, I love poetry and literature, as well as listening to and making interesting music. 
+                      </p><br>
+                  </div>
+                    </center>
               
             </div> <!--END RIGHT HAND PANEL-->
           </div> <!--END ROW-->

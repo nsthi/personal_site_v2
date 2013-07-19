@@ -118,9 +118,10 @@ p.bang1, p.bang2, p.bang3{
 }
 
 #right p{
-	float:right;
-	font-size: 1em;
-	padding-top: 4em;
+	padding-left: 3em;
+	padding-right: 2.5em;
+	font-size: 2em;
+	padding-top: 0em;
 }
 
 h1{
@@ -261,10 +262,10 @@ img.portrait{
 
 .social li {
 	float: left;
-	padding: .7em .5em .5em .5em;
+	padding: .6em .4em .5em .5em;
 	color: #575A5C;
 	font-family: 'Social';
-	font-size: 50px;
+	font-size: 30px;
 }
 
 .social a{
@@ -316,9 +317,9 @@ img.portrait{
 #right p.contact{
 	padding-top:0em;
 	padding-bottom: 2em;
-	font-size:20px; 
+	font-size:2em; 
 	float: left;
-	font-size: 14px;
+	font-size: 1.5em;
 }
 
 
