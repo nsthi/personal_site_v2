@@ -219,12 +219,12 @@ img.grayscale:hover {
 	
 }
 
-.portrait{
-	width: 95%;
+img{
+	margin-left: 29%;
 }
 
-img.portrait{
-	border-color: #03588C;
+img.grayscale{
+	width: 40%;
 }
 
 /**
